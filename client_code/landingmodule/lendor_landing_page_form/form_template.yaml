@@ -47,6 +47,10 @@ components:
   properties: {text: " Loan \nDisbursement"}
   type: Button
   layout_properties: {grid_position: 'MKQQRW,RFGLIY'}
+- name: button_16
+  properties: {text: "View / Send \nNotifications"}
+  type: Button
+  layout_properties: {grid_position: 'MKQQRW,DERZGF'}
 - name: button_7
   properties: {text: "View \nLost opportunities"}
   type: Button
@@ -80,13 +84,9 @@ components:
   properties: {text: "View / Edit \nProfile"}
   type: Button
   layout_properties: {grid_position: 'CRJIHC,VVZLQE'}
-- name: button_16
-  properties: {text: "View / Send \nNotifications"}
-  type: Button
-  layout_properties: {grid_position: 'CYUWLH,PGGNUB'}
 - name: button_15
-  properties: {text: Change Password}
+  properties: {text: "Change \nPassword"}
   type: Button
-  layout_properties: {grid_position: 'CYUWLH,TBGDNA'}
+  layout_properties: {grid_position: 'CRJIHC,FNAOGU'}
 is_package: true
 custom_component: true
