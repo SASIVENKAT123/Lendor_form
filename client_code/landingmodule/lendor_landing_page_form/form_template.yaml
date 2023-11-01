@@ -33,6 +33,7 @@ components:
   properties: {text: "View \nOpening Balance"}
   type: Button
   layout_properties: {grid_position: 'MKQQRW,RSAFCZ'}
+  event_bindings: {click: button_3_click}
 - name: button_4
   properties: {text: "View \nAvailable Balance"}
   type: Button

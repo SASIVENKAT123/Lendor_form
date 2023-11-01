@@ -25,3 +25,7 @@ class lendor_landing_page_form(lendor_landing_page_formTemplate):
     """This method is called when the button is clicked"""
     open_form("landingmodule.main_form")
 
+  def button_3_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form("landingmodule.lendor_landing_page_form.Form1")
+
