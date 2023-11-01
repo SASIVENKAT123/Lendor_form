@@ -71,9 +71,5 @@ container:
       \ a width outside of designer\n        $('.content').css({'margin-left': ln.outerWidth()\
       \ + 'px'});\n      }\n    }\n  }\n  \n  addMarginToContent()\n  window.addEventListener('resize',\
       \ addMarginToContent);\n \n</script>"}
-components:
-- name: column_panel_1
-  properties: {}
-  type: ColumnPanel
-  layout_properties: {slot: left-nav}
+components: []
 is_package: true
