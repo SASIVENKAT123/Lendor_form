@@ -14,7 +14,7 @@ services:
 - source: /runtime/services/anvil/email.yml
   client_config: {}
   server_config: {}
-startup: {type: form, module: landingmodule.lendor_landing_page_form}
+startup: {type: form, module: landingmodule.lendor_landing_page_form.Form1}
 package_name: Bank
 allow_embedding: false
 name: Main_Lender_Form
